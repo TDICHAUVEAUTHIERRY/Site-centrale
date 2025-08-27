@@ -1,0 +1,57 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de développement
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Dossiers de développement
+node_modules/
+.git/
+.gitignore
+README.md
+*.md
+
+# Fichiers de configuration de développement
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Fichiers de build
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+
+# Fichiers temporaires
+temp/
+tmp/
+cache/
+
+# Fichiers de logs
+logs/
+*.log
+
+# Fichiers de configuration Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Fichiers de configuration Coolify
+coolify.yml
+.coolify/
+
+# Fichiers de déploiement
+deploy.sh
+*.sh
